@@ -88,3 +88,11 @@ OutroRepo    [ Enable ]
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.123456.svg)](https://doi.org/10.5281/zenodo.123456)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.123456.svg)](https://doi.org/10.5281/zenodo.123456)
+cd UbuntuCode
+mkdir -p docs
+echo "# Plano de Integração ORCID – UbuntuCode" > docs/ORCID-Integration-Plan.md
+notepad docs/ORCID-Integration-Plan.md
+git add docs/ORCID-Integration-Plan.md
+git commit -m "docs: adicionar plano de integração ORCID institucional"
+git push origin main
+
